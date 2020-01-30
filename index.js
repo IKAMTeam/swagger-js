@@ -38,6 +38,7 @@ module.exports = SwaggerClient;
 SwaggerClient.ApiKeyAuthorization = auth.ApiKeyAuthorization;
 SwaggerClient.PasswordAuthorization = auth.PasswordAuthorization;
 SwaggerClient.CookieAuthorization = auth.CookieAuthorization;
+SwaggerClient.BearerTokenAuthorization = auth.BearerTokenAuthorization;
 SwaggerClient.SwaggerApi = deprecationWrapper;
 SwaggerClient.SwaggerClient = deprecationWrapper;
 SwaggerClient.SchemaMarkup = require('./lib/schema-markup');
